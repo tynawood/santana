@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.AIESEC"
+        id        = "com.phonegap.ELAC pcket insurance"
         version   = "1.0.0">
 
-    <name>Santana On Radio!</name>
+    <name>Santana On Radio</name>
 
     <description>
-     Live radio streaming up for santana and ekwansodwodwo fans...
+      Radio live streaming app for the fans of santana and ekwansodwodwo....
     </description>
 
-    <author href="http://isoftgh.com" email="info@isoftgh.com">
-        isoftgh
+    <author href="" email="">
+       isoftgh
     </author>
 
     <!--
@@ -53,7 +53,7 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
+    <icon src="images/icon-48-mdpi.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />

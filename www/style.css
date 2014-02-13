@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+	
+	
+	
+body{
+	background:url(images/featured-a.jpg) no-repeat ;
+
+	
+		
+		
+		
+		}
+		p{
+			font-size:100%;
+			text-align:center;
+	
+		
+		margin-top:-80px;
+		margin-bottom:20px;
+		margin-left:30px;
+	
+		
+		}
+		
+	
+		strong{
+	font-size: 14px;
+	
+	position:relative;
+	top:-20px;
+	margin-left:60px;
+	
+	
+	
+}
+
+#header{
+	background:#FFF;
+width:100%;
+	height:60px;
+	box-shadow:#CCC;
+	border-bottom:1px #0099FF solid;
+	position:relative;
+	top:-10px;
+	left:-10px;
+	padding-right:18px;
+
+	
+	
+	
+	}
+	
+	.logo{
+	background:url(i/logo.png) no-repeat;
+	width:200px;;
+	height:60px;
+position:relative;
+left:600px;
+
+cursor:pointer;
+	
+	
+	}
+	
+	#container{
+		width:100%;
+		/*height:330px;*/
+		
+		
+		
+		
+		
+		}
+		
+		
+
+		
+		#box{background:#7c3792;
+		width:100%;
+		height:100px;
+		display:block;
+		/*margin-top:10px;*/
+		margin-bottom:10px;
+		position:relative;
+		color:#FFF;
+		text-align:center;
+		z-index:5px;
+		line-height:20px;
+		text-decoration:none;
+		
+		}
+		
+		
+		
+		
+		
+		#box .lefter{
+				width:20%;
+				height:100%;
+				background:#b088bd;
+				line-height:80px;
+				position:relative;
+				font-size:12px;
+				
+				
+				
+				}
+				
+				
+				
+				#box .lefter .letter{
+					width:40px;
+					height:40px;
+					background-color:#7c3792;
+					color:#FFF;
+					margin-left:auto;
+					margin-right:auto;
+					position:relative;
+					top:30px;
+					border-radius:40px;
+					line-height:35px;
+					font-size:25px;
+					
+					
+					
+					}
+		
+		#box1{background:#149fc6;
+		width:100%;
+		height:100px;
+		display:block;
+		
+		margin-bottom:20px;
+		position:relative;}
+		
+		#box1 .lefter{
+				width:20%;
+				height:100px;
+				background:#71c6db;
+				color:#FFF;
+				text-align:center;
+				line-height:140px;
+				text-transform:uppercase;
+				
+				
+				
+				}
+		
+		#box2{background:#FF6A6A;
+		width:100%;
+		height:100px;
+		display:block;
+		
+		margin-bottom:10px;
+		position:relative;}
+		
+		#box2 .lefter{
+				width:20%;
+				height:100px;
+				background:#FFC1C1;
+				color:#FFF;
+				text-align:center;
+				line-height:140px;
+				text-transform:uppercase;
+				
+				
+				
+				
+				}
+		
+	
+	#radiobanner{
+	background:#000;
+width:100%;
+	height:60px;
+	box-shadow:#CCC;
+	/*border-bottom:1px #0099FF solid;*/
+	 z-index: 499;
+	 zoom: 1;
+	 position:fixed;
+	 overflow:hidden;
+	left:-10px;
+	top:400px;
+	padding-right:18px;
+	}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
