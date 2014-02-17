@@ -4,37 +4,34 @@
 	
 	
 	
-	@font-face{font-family:Crystal-Lake  ;src:url(css/Crystal-Lake.ttf)
-		}
+	
 body{
-	/*background:url(images/featured-a.jpg) no-repeat ;
+	background:url(images/featured-a.jpg) no-repeat ;
 
 	
 		
-		*/
+		
 		
 		}
 		p{
 			font-size:100%;
-			text-align:left;
-			/*font-family:;*/
-			line-height:50px;
-			font-weight:normal;
+			text-align:center;
 	
 		
-		
-		
-		
+		margin-top:-80px;
+		margin-bottom:20px;
+		margin-left:30px;
+	
 		
 		}
 		
 	
 		strong{
-	font-size:100%;
-			text-align:left;
-			
-			
+	font-size: 14px;
 	
+	position:relative;
+	top:-20px;
+	margin-left:60px;
 	
 	
 	
@@ -76,47 +73,17 @@ cursor:pointer;
 		
 		
 		
-		
 		}
 		
 		
 
 		
-		#box{background:#dc5c05;
+		#box{background:#7c3792;
 		width:100%;
-		height:50px;
+		height:100px;
 		display:block;
-		margin-bottom:-17px;
-		border-bottom:#FFF 2px solid;
-		position:relative;
-		color:#FFF;
-		text-align:center;
-		z-index:5px;
-		line-height:20px;
-		text-decoration:none;
-		
-		}
-		
-		#box2{background:#ffab00;
-		width:100%;
-		height:50px;
-		display:block;
-		margin-bottom:-17px;
-		border-bottom:#FFF 2px solid;
-		position:relative;
-		color:#FFF;
-		text-align:center;
-		z-index:5px;
-		line-height:20px;
-		text-decoration:none;
-		
-		}
-		#box3{background:#6fc5b8;
-		width:100%;
-		height:50px;
-		display:block;
-		margin-bottom:-17px;
-		border-bottom:#FFF 2px solid;
+		/*margin-top:10px;*/
+		margin-bottom:10px;
 		position:relative;
 		color:#FFF;
 		text-align:center;
@@ -127,39 +94,10 @@ cursor:pointer;
 		}
 		
 		
-		#box4{background:#ff9000;
-		width:100%;
-		height:50px;
-		display:block;
-		margin-bottom:-17px;
-		border-bottom:#FFF 2px solid;
-		position:relative;
-		color:#FFF;
-		text-align:center;
-		z-index:5px;
-		line-height:20px;
-		text-decoration:none;
-		
-		}
-		
-		
-			#box5{background:#dc5c05;
-		width:100%;
-		height:50px;
-		display:block;
-		margin-bottom:17px;
-		border-bottom:#FFF 2px solid;
-		position:relative;
-		color:#FFF;
-		
-		text-decoration:none;
-		
-		}
 		
 		
 		
-		
-		/*#box .lefter{
+		#box .lefter{
 				width:20%;
 				height:100%;
 				background:#b088bd;
@@ -169,11 +107,11 @@ cursor:pointer;
 				
 				
 				
-				}*/
+				}
 				
 				
 				
-				/*#box .lefter .letter{
+				#box .lefter .letter{
 					width:40px;
 					height:40px;
 					background-color:#7c3792;
@@ -188,7 +126,7 @@ cursor:pointer;
 					
 					
 					
-					}*/
+					}
 		
 		/*#box1{background:#149fc6;
 		width:100%;
@@ -234,7 +172,7 @@ cursor:pointer;
 				}
 		*/
 		
-			#box1{background:#7c3792;
+			#box1{background:url(santino.jpg);
 		width:100%;
 		height:100px;
 		display:block;
@@ -253,7 +191,7 @@ cursor:pointer;
 		
 		
 		
-		/*#box1 .lefter{
+		#box1 .lefter{
 				width:20%;
 				height:100px;
 				background:#b088bd;
@@ -290,7 +228,7 @@ width:100%;
 	height:60px;
 	box-shadow:#CCC;
 	/*border-bottom:1px #0099FF solid;*/
-	/* z-index: 499;
+	 z-index: 499;
 	 zoom: 1;
 	 position:fixed;
 	 overflow:hidden;
@@ -298,21 +236,11 @@ width:100%;
 	top:400px;
 	padding-right:18px;
 	}
-*/
+
 .copyright {
     font-size: 12px;
     text-align: center;
 }
 
-
-#branding{
-background:url(images/logo.png) no-repeat;
-width:322px;
-height:165px;
-text-indent:-999px;
-font-size:0px;
-margin:-10px auto 0 auto;
-/*border-bottom:1px solid rgba(38, 85, 37, 0.6);*/
-}
 
 
