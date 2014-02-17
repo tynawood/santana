@@ -6,21 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
     <link rel="stylesheet" type="text/css" href="style.css"/>
 	<meta charset="utf-8">
-	<style type="text/css">
 	
-		#playcontrols {
-			text-align: center;
-			margin-top: 50px;
-		}
-		#playcontrols #activityindicator, #playcontrols #stopbutton {
-			display: none;
-		}
-		
-		#textpositiondiv {
-			margin-top: 100px;
-		}
-	
-	</style>
     
   <link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
 <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
@@ -29,35 +15,50 @@
   </head>
   <body>
   <div data-role="page" id="page">
-	  <div id="header"><img src="images/okay.png" style="display:block;margin-left:auto;margin-right:auto;" alt=""/></div>
+	 <div id="branding">
+		<h1>youth</h1>
+	</div>
       
       
       
       <div id="container">
-    <a href="#page2" id="box1">     <div class="lefter">      <div class="letter">c</div>      Campaign     </div><!--<p>SANTANA FOR CHRIST</p><!--<strong>Follow Santana As he devotes his time for christ</strong>-->      </a>
+    <a href="#page2" id="box"><p>Announcement</p><!--<strong>Follow Santana As he devotes his time for christ</strong>-->      </a>
       
-      <a href="#page4" id="box">
-      <div class="lefter">
-      <div class="letter">m</div>
-      Multimedia
-     </div>
+      <a href="#page4" id="box2">
+     
+     
 
-<p>SANTANA HEARS</p>
+<p>Calender</p>
 <!--<strong>Follow Santana As he devotes his time for christ</strong>-->
       </a>
       
-      <a href="#page5" id="box">
-      <div class="lefter">
-      <div class="letter">s</div>
-      Social
-     </div>
+      <a href="#page5" id="box3">
+     
 
-<p>SANTANA ON SOCIAL</p>
+<p>Magazine</p>
 <!--<strong>Follow Santana As he devotes his time for christ</strong>-->
       </a>
       
       
+        <a href="#page5" id="box4">
+     
+
+<p>sunday school lesson</p>
+<!--<strong>Follow Santana As he devotes his time for christ</strong>-->
+      </a>
       
+        <a href="#page5" id="box5">
+     
+
+<p>Testimony</p>
+<!--<strong>Follow Santana As he devotes his time for christ</strong>-->
+      </a>
+      
+      
+       <div data-role="footer"data-theme="b">
+		<strong class="copyright">Copyright &copy; youth ministry. Designed by isoft</strong>		</div>
+</div>
+</div>
      <!-- <div data-role="page" id="page2">
 	<div data-role="header">
 		<h1>Page Two</h1>
@@ -76,18 +77,10 @@
 		  <a href="#" id="stopbutton" onClick="html5audio.stop();return false;"><img src="images/stopbutton.png" /></a>
 	  </div>-->
       </div>
-     <div id="radiobanner">
-       <div id="playcontrols">
-		  <a href="#" id="playbutton" onClick="html5audio.play();return false;"><img src="images/playbutton1.png" style="float:left;margin-top:5px; position:relative;top:-40px;margin-left:10px;" /></a>
-		  <a href="#" id="activityindicator"  style="float:left;margin-top:5px; position:relative;top:-40px;margin-left:10px;"  onClick="html5audio.stop();return false;"><img src="images/activityindicator.gif" /></a>
-		  <a href="#" id="stopbutton" onClick="html5audio.stop();return false;"><img src="images/stopbutton1.png" style="float:left; margin-top:5px; position:relative;top:-40px;margin-left:10px;" /></a>
-	  </div>
-	  <div id="textpositiondiv" style="color:#FFF;text-align:center;margin-top:-30px;"> <span id="textposition">stopped</span></div>
-      </div>
-      </div>
+   
   <div data-role="page" id="page2">
 	 <div data-role="header"data-theme="b"><a href="#page" data-role="button" data-icon="home" data-iconpos="left">Home</a>
-		<h1>Campaigns</h1>
+		<h1>Announcement</h1>
 	</div>
 	<div data-role="content">
 	  <div data-role="collapsible-set">
@@ -109,13 +102,14 @@
      
     </div>
     <div data-role="footer"data-theme="b">
-		<p class="copyright">Copyright &copy; santana. Designed by isoft</a></p>		</div>
+		<strong class="copyright">Copyright &copy; youth ministry. Designed by isoft</strong>		</div>
+</div>
 </div>
 
 
 <div data-role="page" id="page4">
   <div data-role="header"data-theme="b"><a href="#page" data-role="button" data-icon="home" data-iconpos="left">Home</a>
-    <h1>Multimedia</h1>
+    <h1>Calender</h1>
   </div>
   <div data-role="content">
     <div data-role="collapsible-set">
@@ -139,12 +133,12 @@
     
   </div>
   <div data-role="footer"data-theme="b">
-    <p class="copyright">Copyright &copy; santana. Designed by isoft</a></p>		</div>
+		<strong class="copyright">Copyright &copy; youth ministry. Designed by isoft</strong>		</div>
 </div>
-
+</div>
 <div data-role="page" id="page5">
    <div data-role="header"data-theme="b"><a href="#page" data-role="button" data-icon="home" data-iconpos="left">Home</a>
-    <h1>social</h1>
+    <h1>Magazine</h1>
   </div>
   <div data-role="content">
     <div data-role="collapsible-set">
@@ -162,7 +156,9 @@
       </div>
     </div>
   Content</div>
-   <div data-role="footer"data-theme="b"><p class="copyright">Copyright &copy; santana. Designed by isoft</a></p>		</div>
+   <div data-role="footer"data-theme="b">
+		<strong class="copyright">Copyright &copy; youth ministry. Designed by isoft</strong>		</div>
+</div>
 </div>
 
 	  <script type="text/javascript">

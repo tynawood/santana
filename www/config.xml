@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.AIESEC"
+        id        = "com.phonegap.LIBERTY"
         version   = "1.0.0">
 
-    <name>Santana On Radio!</name>
+    <name>Liberty Youth Journal(AG)</name>
 
     <description>
-      Live radio streaming app for santana and ekwansodwodwo fans.....
+      Liberty Assemblies of God youth ministry monthly journal
     </description>
 
     <author href="http://isoftgh.com" email="info@isoftgh.com">
